@@ -1,0 +1,5 @@
+INFO: build_train_loader
+INFO: have train images 149813
+INFO: build_val_loader
+INFO: have valid images 6352
+INFO: build_model,net_type:model_mobilenet_v2

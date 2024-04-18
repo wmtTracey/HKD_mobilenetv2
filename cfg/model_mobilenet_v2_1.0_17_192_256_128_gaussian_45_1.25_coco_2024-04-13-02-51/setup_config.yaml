@@ -1,0 +1,149 @@
+DATASET:
+  DATASET: coco
+  FLIP: true
+  FLIP_PAIRS:
+  - - 1
+    - 2
+  - - 3
+    - 4
+  - - 5
+    - 6
+  - - 7
+    - 8
+  - - 9
+    - 10
+  - - 11
+    - 12
+  - - 13
+    - 14
+  - - 15
+    - 16
+  JOINT_IDS:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  ROOT: E:/python_project/Dataset/COCO/
+  ROT_FACTOR: 45
+  SCALE_FACTOR: 0.3
+  SCALE_RATE: 1.25
+  SELECT_DATA: false
+  SKELETON:
+  - - 15
+    - 13
+  - - 13
+    - 11
+  - - 16
+    - 14
+  - - 14
+    - 12
+  - - 11
+    - 12
+  - - 5
+    - 11
+  - - 6
+    - 12
+  - - 5
+    - 6
+  - - 5
+    - 7
+  - - 6
+    - 8
+  - - 7
+    - 9
+  - - 8
+    - 10
+  - - 0
+    - 1
+  - - 0
+    - 2
+  - - 1
+    - 3
+  - - 2
+    - 4
+  TEST_FILE: val2017/annotations/person_keypoints_val2017.json
+  TEST_SET: val2017
+  TRAIN_FILE: train2017/annotations/person_keypoints_train2017.json
+  TRAIN_SET: train2017
+DEBUG:
+  DEBUG: true
+  SAVE_BATCH_IMAGES_GT: true
+  SAVE_BATCH_IMAGES_PRED: true
+  SAVE_HEATMAPS_GT: true
+  SAVE_HEATMAPS_PRED: true
+LOSS:
+  KPD: 10
+  USE_TARGET_WEIGHT: true
+MODEL:
+  EXTRA:
+    DECONV_WITH_BIAS: false
+    FINAL_CONV_KERNEL: 1
+    HEATMAP_SIZE:
+    - 48
+    - 64
+    NUM_DECONV_FILTERS:
+    - 128
+    - 128
+    - 128
+    NUM_DECONV_KERNELS:
+    - 4
+    - 4
+    - 4
+    NUM_DECONV_LAYERS: 3
+    NUM_LAYERS: 18
+    SIGMA: 2
+    TARGET_TYPE: gaussian
+    WIDTH_MULT: 1.0
+  IMAGE_SIZE:
+  - 192
+  - 256
+  NAME: model_mobilenet_v2
+  NUM_JOINTS: 17
+  PRETRAINED: E:/python_project/HKD_mobilenetv2/pretrained/best_model_178_0.6272.pth
+  TARGET_TYPE: gaussian
+PRINT_FREQ: 10
+TEST:
+  BATCH_SIZE: 64
+  BBOX_THRE: 1.0
+  COCO_BBOX_FILE: data/coco/person_detection_results/COCO_val2017_detections_AP_H_56_person.json
+  FLIP_TEST: true
+  IMAGE_THRE: 0.0
+  IN_VIS_THRE: 0.2
+  MODEL_FILE: ''
+  NMS_THRE: 1.0
+  OKS_THRE: 0.9
+  POST_PROCESS: true
+  SHIFT_HEATMAP: false
+  USE_GT_BBOX: true
+TRAIN:
+  BATCH_SIZE: 64
+  BEGIN_EPOCH: 0
+  END_EPOCH: 1
+  GAMMA1: 0.99
+  GAMMA2: 0.0
+  LR: 0.001
+  LR_FACTOR: 0.1
+  LR_STEP:
+  - 90
+  - 120
+  MOMENTUM: 0.9
+  NESTEROV: false
+  OPTIMIZER: adam
+  RESUME: false
+  SHUFFLE: true
+  WD: 0.0001
+WORKERS: 0
+WORK_DIR: E:/python_project/HKD_mobilenetv2/cfg/

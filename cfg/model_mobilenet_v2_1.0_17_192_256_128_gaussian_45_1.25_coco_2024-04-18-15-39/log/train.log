@@ -1,0 +1,20 @@
+INFO: build_train_loader
+INFO: have train images 149813
+INFO: build_val_loader
+INFO: have valid images 6352
+INFO: build_model,net_type:model_mobilenet_v2
+INFO: build_criterion
+INFO: build_optimizer
+INFO: optim_type:adam,init_lr:0.001,weight_decay:0.0001
+INFO: batch_size:64
+INFO: ============================================================
+INFO: work_dir          :E:/python_project/HKD_mobilenetv2/cfg/model_mobilenet_v2_1.0_17_192_256_128_gaussian_45_1.25_coco_2024-04-18-15-39
+INFO: main device       :cuda:0
+INFO: num_samples(train):149813
+INFO: image size        :[192, 256]
+INFO: target            :gaussian
+INFO: ============================================================
+INFO: target: gaussian
+INFO: work space: E:/python_project/HKD_mobilenetv2/cfg/model_mobilenet_v2_1.0_17_192_256_128_gaussian_45_1.25_coco_2024-04-18-15-39
+INFO: Epoch: [0][0/2341]	ValTime 6.413s (avg6.413s)	Speed 10.0 images/s	Data 1.080s (1.080s)	ValLoss 0.00039 (avg0.00039)	ValAccuracy 0.795 (avg0.795)	lr:0.0010000
+INFO: Epoch: [0][10/2341]	ValTime 1.245s (avg1.712s)	Speed 51.4 images/s	Data 1.025s (1.023s)	ValLoss 0.00052 (avg0.00047)	ValAccuracy 0.732 (avg0.761)	lr:0.0010000

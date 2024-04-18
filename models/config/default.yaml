@@ -1,0 +1,90 @@
+WORKERS: 8
+PRINT_FREQ: 1
+# pose_resnet related params
+POSE_RESNET:
+  NUM_LAYERS: null
+  DECONV_WITH_BIAS: False
+  NUM_DECONV_LAYERS: 3
+  NUM_DECONV_FILTERS: [ 256, 256, 256 ]
+  NUM_DECONV_KERNELS: [ 4, 4, 4 ]
+  FINAL_CONV_KERNEL: 1
+  TARGET_TYPE: null
+  HEATMAP_SIZE: [ 64, 64 ]  # width * height, ex: 24 * 32
+  SIGMA: 2
+# common params for NETWORK
+MODEL:
+  NAME: None
+  TARGET_TYPE: None
+  INIT_WEIGHTS: True
+  PRETRAINED: ''
+  NUM_JOINTS: None
+  IMAGE_SIZE: None  # width * height, ex: 192 * 256
+  EXTRA: POSE_RESNET
+  STYLE: 'pytorch'
+# loss
+LOSS:
+  USE_TARGET_WEIGHT: True
+  KPD: 4.0
+# DATASET related params
+DATASET:
+  ROOT: ''
+  DATASET: 'mpii'
+  TRAIN_SET: 'train'
+  TEST_SET: 'valid'
+  TEST_FILE: ''
+  TRAIN_FILE: ''
+  DATA_FORMAT: 'jpg'
+  HYBRID_JOINTS_TYPE: ''
+  SELECT_DATA: False
+  JOINT_IDS: null
+  FLIP_PAIRS: null
+  SKELETON: null
+  # training data augmentation
+  FLIP: True
+  SCALE_FACTOR: 0.25
+  SCALE_RATE: None
+  ROT_FACTOR: None
+# train
+TRAIN:
+  LR_FACTOR: 0.1
+  LR_STEP: [ 90, 110 ]
+  LR: 0.001
+  OPTIMIZER: 'adam'
+  MOMENTUM: 0.9
+  WD: 0.0001
+  NESTEROV: False
+  GAMMA1: 0.99
+  GAMMA2: 0.0
+  BEGIN_EPOCH: 0
+  END_EPOCH: 140
+  RESUME: False
+  CHECKPOINT: ''
+  BATCH_SIZE: 0
+  SHUFFLE: True
+# testing
+TEST:
+  # size of images for each device
+  BATCH_SIZE: 32
+  # Test Model Epoch
+  FLIP_TEST: False
+  POST_PROCESS: True
+  SHIFT_HEATMAP: True
+  USE_GT_BBOX: False
+  # nms
+  OKS_THRE: 0.5
+  IN_VIS_THRE: 0.0
+  COCO_BBOX_FILE: ''
+  BBOX_THRE: 1.0
+  MODEL_FILE: ''
+  IMAGE_THRE: 0.0
+  NMS_THRE: 1.0
+
+# debug
+DEBUG:
+  DEBUG: False
+  SAVE_BATCH_IMAGES_GT: False
+  SAVE_BATCH_IMAGES_PRED: False
+  SAVE_HEATMAPS_GT: False
+  SAVE_HEATMAPS_PRED: False
+
+

@@ -1,0 +1,270 @@
+INFO: build_train_loader
+INFO: have train images 149813
+INFO: build_val_loader
+INFO: have valid images 6352
+INFO: build_model,net_type:model_mobilenet_v2
+INFO: build_criterion
+INFO: build_optimizer
+INFO: optim_type:sgd,init_lr:0.001,weight_decay:0.0001
+INFO: batch_size:64
+INFO: ============================================================
+INFO: work_dir          :E:/python_project/HKD_mobilenetv2/cfg/model_mobilenet_v2_1.0_17_192_256_128_gaussian_45_1.25_coco_2024-03-02-22-20
+INFO: main device       :cuda:0
+INFO: num_samples(train):149813
+INFO: image size        :[192, 256]
+INFO: target            :gaussian
+INFO: ============================================================
+INFO: target: gaussian
+INFO: work space: E:/python_project/HKD_mobilenetv2/cfg/model_mobilenet_v2_1.0_17_192_256_128_gaussian_45_1.25_coco_2024-03-02-22-20
+INFO: Epoch: [0][0/2341]	ValTime 5.020s (avg5.020s)	Speed 12.7 images/s	Data 0.774s (0.774s)	ValLoss 0.25458 (avg0.25458)	ValAccuracy 0.009 (avg0.009)	lr:0.0010000
+INFO: Epoch: [0][10/2341]	ValTime 0.997s (avg1.452s)	Speed 64.2 images/s	Data 0.733s (0.833s)	ValLoss 0.29526 (avg0.28949)	ValAccuracy 0.010 (avg0.013)	lr:0.0010000
+INFO: Epoch: [0][20/2341]	ValTime 0.953s (avg1.269s)	Speed 67.2 images/s	Data 0.695s (0.820s)	ValLoss 0.26800 (avg0.28014)	ValAccuracy 0.008 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][30/2341]	ValTime 0.929s (avg1.191s)	Speed 68.9 images/s	Data 0.666s (0.804s)	ValLoss 0.23899 (avg0.26872)	ValAccuracy 0.012 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][40/2341]	ValTime 0.893s (avg1.163s)	Speed 71.6 images/s	Data 0.641s (0.806s)	ValLoss 0.23267 (avg0.25858)	ValAccuracy 0.017 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][50/2341]	ValTime 0.870s (avg1.126s)	Speed 73.5 images/s	Data 0.617s (0.789s)	ValLoss 0.21384 (avg0.24984)	ValAccuracy 0.006 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][60/2341]	ValTime 0.785s (avg1.100s)	Speed 81.6 images/s	Data 0.526s (0.777s)	ValLoss 0.18620 (avg0.24119)	ValAccuracy 0.012 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][70/2341]	ValTime 0.736s (avg1.067s)	Speed 87.0 images/s	Data 0.483s (0.753s)	ValLoss 0.17825 (avg0.23361)	ValAccuracy 0.025 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][80/2341]	ValTime 0.749s (avg1.038s)	Speed 85.4 images/s	Data 0.493s (0.731s)	ValLoss 0.16841 (avg0.22691)	ValAccuracy 0.015 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][90/2341]	ValTime 0.725s (avg1.016s)	Speed 88.3 images/s	Data 0.466s (0.714s)	ValLoss 0.16995 (avg0.22043)	ValAccuracy 0.014 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][100/2341]	ValTime 0.763s (avg0.996s)	Speed 83.9 images/s	Data 0.506s (0.699s)	ValLoss 0.18261 (avg0.21562)	ValAccuracy 0.011 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][110/2341]	ValTime 0.728s (avg0.980s)	Speed 87.9 images/s	Data 0.476s (0.686s)	ValLoss 0.16254 (avg0.21065)	ValAccuracy 0.018 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][120/2341]	ValTime 0.735s (avg0.967s)	Speed 87.0 images/s	Data 0.477s (0.676s)	ValLoss 0.16580 (avg0.20656)	ValAccuracy 0.007 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][130/2341]	ValTime 0.737s (avg0.955s)	Speed 86.9 images/s	Data 0.476s (0.668s)	ValLoss 0.14921 (avg0.20277)	ValAccuracy 0.014 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][140/2341]	ValTime 0.760s (avg0.945s)	Speed 84.2 images/s	Data 0.498s (0.660s)	ValLoss 0.13985 (avg0.19873)	ValAccuracy 0.016 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][150/2341]	ValTime 0.761s (avg0.937s)	Speed 84.1 images/s	Data 0.502s (0.653s)	ValLoss 0.14321 (avg0.19518)	ValAccuracy 0.018 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][160/2341]	ValTime 0.754s (avg0.930s)	Speed 84.9 images/s	Data 0.494s (0.648s)	ValLoss 0.12014 (avg0.19154)	ValAccuracy 0.015 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][170/2341]	ValTime 0.720s (avg0.923s)	Speed 88.9 images/s	Data 0.466s (0.642s)	ValLoss 0.14046 (avg0.18833)	ValAccuracy 0.015 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][180/2341]	ValTime 0.741s (avg0.917s)	Speed 86.3 images/s	Data 0.488s (0.638s)	ValLoss 0.14347 (avg0.18542)	ValAccuracy 0.017 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][190/2341]	ValTime 0.747s (avg0.913s)	Speed 85.7 images/s	Data 0.487s (0.634s)	ValLoss 0.13433 (avg0.18266)	ValAccuracy 0.012 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][200/2341]	ValTime 0.749s (avg0.908s)	Speed 85.5 images/s	Data 0.489s (0.630s)	ValLoss 0.12422 (avg0.17986)	ValAccuracy 0.011 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][210/2341]	ValTime 0.764s (avg0.904s)	Speed 83.8 images/s	Data 0.503s (0.627s)	ValLoss 0.11993 (avg0.17741)	ValAccuracy 0.018 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][220/2341]	ValTime 0.744s (avg0.900s)	Speed 86.0 images/s	Data 0.484s (0.624s)	ValLoss 0.11992 (avg0.17493)	ValAccuracy 0.013 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][230/2341]	ValTime 0.739s (avg0.897s)	Speed 86.6 images/s	Data 0.478s (0.621s)	ValLoss 0.10726 (avg0.17254)	ValAccuracy 0.011 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][240/2341]	ValTime 0.756s (avg0.894s)	Speed 84.6 images/s	Data 0.496s (0.619s)	ValLoss 0.11691 (avg0.17031)	ValAccuracy 0.010 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][250/2341]	ValTime 0.731s (avg0.891s)	Speed 87.5 images/s	Data 0.469s (0.617s)	ValLoss 0.10892 (avg0.16817)	ValAccuracy 0.017 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][260/2341]	ValTime 0.923s (avg0.890s)	Speed 69.4 images/s	Data 0.668s (0.616s)	ValLoss 0.11021 (avg0.16604)	ValAccuracy 0.020 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][270/2341]	ValTime 0.907s (avg0.895s)	Speed 70.5 images/s	Data 0.655s (0.622s)	ValLoss 0.11291 (avg0.16407)	ValAccuracy 0.014 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][280/2341]	ValTime 0.965s (avg0.901s)	Speed 66.3 images/s	Data 0.713s (0.628s)	ValLoss 0.11184 (avg0.16216)	ValAccuracy 0.012 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][290/2341]	ValTime 0.934s (avg0.904s)	Speed 68.6 images/s	Data 0.680s (0.632s)	ValLoss 0.11053 (avg0.16027)	ValAccuracy 0.010 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][300/2341]	ValTime 0.920s (avg0.907s)	Speed 69.6 images/s	Data 0.659s (0.635s)	ValLoss 0.10409 (avg0.15853)	ValAccuracy 0.013 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][310/2341]	ValTime 0.922s (avg0.910s)	Speed 69.4 images/s	Data 0.664s (0.639s)	ValLoss 0.11171 (avg0.15683)	ValAccuracy 0.016 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][320/2341]	ValTime 0.919s (avg0.913s)	Speed 69.7 images/s	Data 0.659s (0.642s)	ValLoss 0.10453 (avg0.15516)	ValAccuracy 0.007 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][330/2341]	ValTime 0.935s (avg0.916s)	Speed 68.4 images/s	Data 0.672s (0.645s)	ValLoss 0.09619 (avg0.15362)	ValAccuracy 0.017 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][340/2341]	ValTime 0.897s (avg0.918s)	Speed 71.3 images/s	Data 0.644s (0.649s)	ValLoss 0.09955 (avg0.15208)	ValAccuracy 0.019 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][350/2341]	ValTime 0.908s (avg0.920s)	Speed 70.5 images/s	Data 0.653s (0.651s)	ValLoss 0.09793 (avg0.15063)	ValAccuracy 0.013 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][360/2341]	ValTime 0.922s (avg0.922s)	Speed 69.4 images/s	Data 0.669s (0.653s)	ValLoss 0.09425 (avg0.14911)	ValAccuracy 0.015 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][370/2341]	ValTime 0.906s (avg0.924s)	Speed 70.6 images/s	Data 0.647s (0.655s)	ValLoss 0.09366 (avg0.14765)	ValAccuracy 0.019 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][380/2341]	ValTime 0.884s (avg0.925s)	Speed 72.4 images/s	Data 0.622s (0.657s)	ValLoss 0.09995 (avg0.14622)	ValAccuracy 0.018 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][390/2341]	ValTime 0.938s (avg0.927s)	Speed 68.3 images/s	Data 0.687s (0.659s)	ValLoss 0.08771 (avg0.14485)	ValAccuracy 0.010 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][400/2341]	ValTime 0.907s (avg0.928s)	Speed 70.6 images/s	Data 0.644s (0.660s)	ValLoss 0.09427 (avg0.14356)	ValAccuracy 0.022 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][410/2341]	ValTime 0.911s (avg0.929s)	Speed 70.3 images/s	Data 0.647s (0.662s)	ValLoss 0.08941 (avg0.14226)	ValAccuracy 0.014 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][420/2341]	ValTime 0.898s (avg0.931s)	Speed 71.3 images/s	Data 0.633s (0.663s)	ValLoss 0.08644 (avg0.14097)	ValAccuracy 0.019 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][430/2341]	ValTime 0.901s (avg0.932s)	Speed 71.1 images/s	Data 0.637s (0.665s)	ValLoss 0.08544 (avg0.13978)	ValAccuracy 0.014 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][440/2341]	ValTime 0.871s (avg0.933s)	Speed 73.5 images/s	Data 0.609s (0.666s)	ValLoss 0.08770 (avg0.13855)	ValAccuracy 0.015 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][450/2341]	ValTime 0.894s (avg0.934s)	Speed 71.6 images/s	Data 0.623s (0.667s)	ValLoss 0.08441 (avg0.13733)	ValAccuracy 0.022 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][460/2341]	ValTime 0.932s (avg0.935s)	Speed 68.7 images/s	Data 0.670s (0.668s)	ValLoss 0.07638 (avg0.13615)	ValAccuracy 0.015 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][470/2341]	ValTime 0.888s (avg0.936s)	Speed 72.1 images/s	Data 0.624s (0.669s)	ValLoss 0.08752 (avg0.13506)	ValAccuracy 0.014 (avg0.015)	lr:0.0010000
+INFO: Epoch: [0][480/2341]	ValTime 0.987s (avg0.937s)	Speed 64.8 images/s	Data 0.726s (0.670s)	ValLoss 0.07250 (avg0.13396)	ValAccuracy 0.013 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][490/2341]	ValTime 0.941s (avg0.938s)	Speed 68.0 images/s	Data 0.684s (0.672s)	ValLoss 0.07631 (avg0.13292)	ValAccuracy 0.019 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][500/2341]	ValTime 0.904s (avg0.939s)	Speed 70.8 images/s	Data 0.645s (0.672s)	ValLoss 0.08181 (avg0.13184)	ValAccuracy 0.020 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][510/2341]	ValTime 0.866s (avg0.939s)	Speed 73.9 images/s	Data 0.612s (0.673s)	ValLoss 0.07253 (avg0.13078)	ValAccuracy 0.020 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][520/2341]	ValTime 0.914s (avg0.940s)	Speed 70.0 images/s	Data 0.658s (0.674s)	ValLoss 0.07816 (avg0.12978)	ValAccuracy 0.012 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][530/2341]	ValTime 0.873s (avg0.941s)	Speed 73.3 images/s	Data 0.615s (0.675s)	ValLoss 0.07096 (avg0.12879)	ValAccuracy 0.013 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][540/2341]	ValTime 0.825s (avg0.941s)	Speed 77.6 images/s	Data 0.564s (0.675s)	ValLoss 0.07418 (avg0.12785)	ValAccuracy 0.016 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][550/2341]	ValTime 0.937s (avg0.941s)	Speed 68.3 images/s	Data 0.676s (0.675s)	ValLoss 0.07466 (avg0.12689)	ValAccuracy 0.013 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][560/2341]	ValTime 0.816s (avg0.941s)	Speed 78.5 images/s	Data 0.560s (0.676s)	ValLoss 0.06831 (avg0.12594)	ValAccuracy 0.023 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][570/2341]	ValTime 0.913s (avg0.941s)	Speed 70.1 images/s	Data 0.657s (0.676s)	ValLoss 0.07500 (avg0.12501)	ValAccuracy 0.012 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][580/2341]	ValTime 0.868s (avg0.941s)	Speed 73.7 images/s	Data 0.614s (0.676s)	ValLoss 0.06448 (avg0.12409)	ValAccuracy 0.015 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][590/2341]	ValTime 0.873s (avg0.942s)	Speed 73.3 images/s	Data 0.612s (0.677s)	ValLoss 0.07113 (avg0.12317)	ValAccuracy 0.005 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][600/2341]	ValTime 0.841s (avg0.942s)	Speed 76.1 images/s	Data 0.586s (0.677s)	ValLoss 0.06626 (avg0.12231)	ValAccuracy 0.013 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][610/2341]	ValTime 0.847s (avg0.942s)	Speed 75.6 images/s	Data 0.589s (0.677s)	ValLoss 0.06308 (avg0.12143)	ValAccuracy 0.010 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][620/2341]	ValTime 0.854s (avg0.942s)	Speed 75.0 images/s	Data 0.598s (0.677s)	ValLoss 0.06790 (avg0.12058)	ValAccuracy 0.018 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][630/2341]	ValTime 0.919s (avg0.942s)	Speed 69.6 images/s	Data 0.658s (0.678s)	ValLoss 0.06746 (avg0.11976)	ValAccuracy 0.013 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][640/2341]	ValTime 0.830s (avg0.942s)	Speed 77.1 images/s	Data 0.576s (0.678s)	ValLoss 0.06635 (avg0.11892)	ValAccuracy 0.011 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][650/2341]	ValTime 0.885s (avg0.942s)	Speed 72.3 images/s	Data 0.622s (0.678s)	ValLoss 0.06719 (avg0.11812)	ValAccuracy 0.014 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][660/2341]	ValTime 0.922s (avg0.942s)	Speed 69.4 images/s	Data 0.661s (0.678s)	ValLoss 0.06644 (avg0.11733)	ValAccuracy 0.010 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][670/2341]	ValTime 0.881s (avg0.942s)	Speed 72.6 images/s	Data 0.625s (0.678s)	ValLoss 0.06025 (avg0.11650)	ValAccuracy 0.008 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][680/2341]	ValTime 0.870s (avg0.943s)	Speed 73.6 images/s	Data 0.606s (0.678s)	ValLoss 0.06441 (avg0.11574)	ValAccuracy 0.016 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][690/2341]	ValTime 0.891s (avg0.943s)	Speed 71.8 images/s	Data 0.624s (0.679s)	ValLoss 0.05720 (avg0.11499)	ValAccuracy 0.007 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][700/2341]	ValTime 0.849s (avg0.943s)	Speed 75.4 images/s	Data 0.590s (0.679s)	ValLoss 0.06446 (avg0.11424)	ValAccuracy 0.015 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][710/2341]	ValTime 0.908s (avg0.943s)	Speed 70.5 images/s	Data 0.646s (0.679s)	ValLoss 0.06455 (avg0.11348)	ValAccuracy 0.022 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][720/2341]	ValTime 0.932s (avg0.943s)	Speed 68.7 images/s	Data 0.668s (0.679s)	ValLoss 0.05976 (avg0.11276)	ValAccuracy 0.009 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][730/2341]	ValTime 0.850s (avg0.943s)	Speed 75.3 images/s	Data 0.590s (0.679s)	ValLoss 0.05246 (avg0.11203)	ValAccuracy 0.007 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][740/2341]	ValTime 0.872s (avg0.943s)	Speed 73.4 images/s	Data 0.606s (0.679s)	ValLoss 0.06207 (avg0.11129)	ValAccuracy 0.015 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][750/2341]	ValTime 0.814s (avg0.943s)	Speed 78.7 images/s	Data 0.559s (0.679s)	ValLoss 0.05799 (avg0.11058)	ValAccuracy 0.020 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][760/2341]	ValTime 0.867s (avg0.943s)	Speed 73.8 images/s	Data 0.612s (0.679s)	ValLoss 0.05892 (avg0.10990)	ValAccuracy 0.012 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][770/2341]	ValTime 0.865s (avg0.943s)	Speed 74.0 images/s	Data 0.611s (0.679s)	ValLoss 0.05657 (avg0.10921)	ValAccuracy 0.015 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][780/2341]	ValTime 0.902s (avg0.943s)	Speed 71.0 images/s	Data 0.640s (0.679s)	ValLoss 0.05665 (avg0.10854)	ValAccuracy 0.016 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][790/2341]	ValTime 0.882s (avg0.943s)	Speed 72.6 images/s	Data 0.626s (0.679s)	ValLoss 0.05823 (avg0.10787)	ValAccuracy 0.009 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][800/2341]	ValTime 0.816s (avg0.943s)	Speed 78.4 images/s	Data 0.557s (0.679s)	ValLoss 0.05963 (avg0.10723)	ValAccuracy 0.015 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][810/2341]	ValTime 0.870s (avg0.943s)	Speed 73.6 images/s	Data 0.608s (0.679s)	ValLoss 0.05448 (avg0.10658)	ValAccuracy 0.011 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][820/2341]	ValTime 0.859s (avg0.943s)	Speed 74.5 images/s	Data 0.602s (0.679s)	ValLoss 0.04794 (avg0.10595)	ValAccuracy 0.014 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][830/2341]	ValTime 0.822s (avg0.942s)	Speed 77.9 images/s	Data 0.567s (0.679s)	ValLoss 0.05126 (avg0.10532)	ValAccuracy 0.006 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][840/2341]	ValTime 0.825s (avg0.942s)	Speed 77.5 images/s	Data 0.571s (0.679s)	ValLoss 0.05289 (avg0.10470)	ValAccuracy 0.018 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][850/2341]	ValTime 0.856s (avg0.942s)	Speed 74.7 images/s	Data 0.601s (0.679s)	ValLoss 0.05034 (avg0.10408)	ValAccuracy 0.018 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][860/2341]	ValTime 0.868s (avg0.942s)	Speed 73.7 images/s	Data 0.610s (0.679s)	ValLoss 0.05679 (avg0.10347)	ValAccuracy 0.016 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][870/2341]	ValTime 0.841s (avg0.942s)	Speed 76.1 images/s	Data 0.585s (0.679s)	ValLoss 0.05023 (avg0.10287)	ValAccuracy 0.015 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][880/2341]	ValTime 0.861s (avg0.942s)	Speed 74.4 images/s	Data 0.610s (0.679s)	ValLoss 0.05196 (avg0.10227)	ValAccuracy 0.008 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][890/2341]	ValTime 0.889s (avg0.942s)	Speed 72.0 images/s	Data 0.632s (0.679s)	ValLoss 0.04969 (avg0.10170)	ValAccuracy 0.013 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][900/2341]	ValTime 0.923s (avg0.942s)	Speed 69.4 images/s	Data 0.657s (0.679s)	ValLoss 0.05048 (avg0.10112)	ValAccuracy 0.009 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][910/2341]	ValTime 0.874s (avg0.942s)	Speed 73.3 images/s	Data 0.609s (0.679s)	ValLoss 0.05088 (avg0.10055)	ValAccuracy 0.011 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][920/2341]	ValTime 0.905s (avg0.942s)	Speed 70.7 images/s	Data 0.642s (0.679s)	ValLoss 0.04691 (avg0.09999)	ValAccuracy 0.008 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][930/2341]	ValTime 0.884s (avg0.942s)	Speed 72.4 images/s	Data 0.621s (0.679s)	ValLoss 0.04950 (avg0.09944)	ValAccuracy 0.014 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][940/2341]	ValTime 0.847s (avg0.942s)	Speed 75.5 images/s	Data 0.587s (0.679s)	ValLoss 0.04715 (avg0.09891)	ValAccuracy 0.014 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][950/2341]	ValTime 0.870s (avg0.942s)	Speed 73.6 images/s	Data 0.602s (0.679s)	ValLoss 0.04459 (avg0.09837)	ValAccuracy 0.018 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][960/2341]	ValTime 0.840s (avg0.942s)	Speed 76.2 images/s	Data 0.585s (0.679s)	ValLoss 0.04609 (avg0.09783)	ValAccuracy 0.008 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][970/2341]	ValTime 0.911s (avg0.942s)	Speed 70.3 images/s	Data 0.647s (0.679s)	ValLoss 0.04974 (avg0.09732)	ValAccuracy 0.010 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][980/2341]	ValTime 0.839s (avg0.942s)	Speed 76.3 images/s	Data 0.574s (0.679s)	ValLoss 0.04015 (avg0.09679)	ValAccuracy 0.012 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][990/2341]	ValTime 0.880s (avg0.942s)	Speed 72.8 images/s	Data 0.621s (0.679s)	ValLoss 0.04644 (avg0.09629)	ValAccuracy 0.011 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1000/2341]	ValTime 0.836s (avg0.942s)	Speed 76.6 images/s	Data 0.573s (0.679s)	ValLoss 0.04807 (avg0.09578)	ValAccuracy 0.009 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1010/2341]	ValTime 0.892s (avg0.942s)	Speed 71.7 images/s	Data 0.627s (0.679s)	ValLoss 0.04516 (avg0.09528)	ValAccuracy 0.015 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1020/2341]	ValTime 0.853s (avg0.942s)	Speed 75.1 images/s	Data 0.587s (0.679s)	ValLoss 0.04099 (avg0.09479)	ValAccuracy 0.019 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1030/2341]	ValTime 0.872s (avg0.942s)	Speed 73.4 images/s	Data 0.610s (0.679s)	ValLoss 0.04801 (avg0.09430)	ValAccuracy 0.012 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1040/2341]	ValTime 0.789s (avg0.942s)	Speed 81.1 images/s	Data 0.532s (0.679s)	ValLoss 0.04391 (avg0.09381)	ValAccuracy 0.015 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1050/2341]	ValTime 0.827s (avg0.941s)	Speed 77.4 images/s	Data 0.567s (0.679s)	ValLoss 0.04528 (avg0.09333)	ValAccuracy 0.008 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1060/2341]	ValTime 0.856s (avg0.941s)	Speed 74.7 images/s	Data 0.597s (0.678s)	ValLoss 0.03991 (avg0.09285)	ValAccuracy 0.013 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1070/2341]	ValTime 0.877s (avg0.941s)	Speed 73.0 images/s	Data 0.620s (0.678s)	ValLoss 0.04230 (avg0.09238)	ValAccuracy 0.013 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1080/2341]	ValTime 0.856s (avg0.941s)	Speed 74.7 images/s	Data 0.603s (0.678s)	ValLoss 0.03897 (avg0.09192)	ValAccuracy 0.017 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1090/2341]	ValTime 0.904s (avg0.941s)	Speed 70.8 images/s	Data 0.645s (0.678s)	ValLoss 0.04116 (avg0.09146)	ValAccuracy 0.025 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1100/2341]	ValTime 0.850s (avg0.941s)	Speed 75.3 images/s	Data 0.592s (0.678s)	ValLoss 0.04104 (avg0.09101)	ValAccuracy 0.011 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1110/2341]	ValTime 0.848s (avg0.940s)	Speed 75.5 images/s	Data 0.593s (0.678s)	ValLoss 0.04014 (avg0.09056)	ValAccuracy 0.017 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1120/2341]	ValTime 0.878s (avg0.940s)	Speed 72.9 images/s	Data 0.624s (0.678s)	ValLoss 0.03793 (avg0.09013)	ValAccuracy 0.017 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1130/2341]	ValTime 0.829s (avg0.940s)	Speed 77.2 images/s	Data 0.575s (0.678s)	ValLoss 0.04070 (avg0.08969)	ValAccuracy 0.017 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1140/2341]	ValTime 0.815s (avg0.940s)	Speed 78.5 images/s	Data 0.561s (0.678s)	ValLoss 0.03866 (avg0.08925)	ValAccuracy 0.017 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1150/2341]	ValTime 1.131s (avg0.940s)	Speed 56.6 images/s	Data 0.873s (0.678s)	ValLoss 0.03843 (avg0.08882)	ValAccuracy 0.016 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1160/2341]	ValTime 0.840s (avg0.940s)	Speed 76.2 images/s	Data 0.587s (0.678s)	ValLoss 0.03883 (avg0.08839)	ValAccuracy 0.008 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1170/2341]	ValTime 0.887s (avg0.940s)	Speed 72.2 images/s	Data 0.625s (0.678s)	ValLoss 0.03898 (avg0.08798)	ValAccuracy 0.023 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1180/2341]	ValTime 0.852s (avg0.940s)	Speed 75.1 images/s	Data 0.582s (0.678s)	ValLoss 0.04149 (avg0.08757)	ValAccuracy 0.015 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1190/2341]	ValTime 0.835s (avg0.940s)	Speed 76.6 images/s	Data 0.578s (0.678s)	ValLoss 0.03520 (avg0.08715)	ValAccuracy 0.010 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1200/2341]	ValTime 0.870s (avg0.940s)	Speed 73.6 images/s	Data 0.610s (0.678s)	ValLoss 0.03935 (avg0.08675)	ValAccuracy 0.010 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1210/2341]	ValTime 0.842s (avg0.940s)	Speed 76.0 images/s	Data 0.577s (0.678s)	ValLoss 0.03776 (avg0.08634)	ValAccuracy 0.008 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1220/2341]	ValTime 0.855s (avg0.940s)	Speed 74.9 images/s	Data 0.598s (0.678s)	ValLoss 0.03692 (avg0.08595)	ValAccuracy 0.008 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1230/2341]	ValTime 0.872s (avg0.940s)	Speed 73.4 images/s	Data 0.614s (0.678s)	ValLoss 0.03605 (avg0.08556)	ValAccuracy 0.013 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1240/2341]	ValTime 0.884s (avg0.940s)	Speed 72.4 images/s	Data 0.623s (0.678s)	ValLoss 0.03738 (avg0.08517)	ValAccuracy 0.011 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1250/2341]	ValTime 0.891s (avg0.940s)	Speed 71.9 images/s	Data 0.627s (0.678s)	ValLoss 0.03644 (avg0.08479)	ValAccuracy 0.011 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1260/2341]	ValTime 0.856s (avg0.940s)	Speed 74.8 images/s	Data 0.590s (0.678s)	ValLoss 0.03708 (avg0.08440)	ValAccuracy 0.015 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1270/2341]	ValTime 0.846s (avg0.940s)	Speed 75.6 images/s	Data 0.591s (0.678s)	ValLoss 0.03106 (avg0.08401)	ValAccuracy 0.011 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1280/2341]	ValTime 0.851s (avg0.940s)	Speed 75.2 images/s	Data 0.595s (0.678s)	ValLoss 0.03494 (avg0.08364)	ValAccuracy 0.010 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1290/2341]	ValTime 0.835s (avg0.940s)	Speed 76.6 images/s	Data 0.581s (0.678s)	ValLoss 0.03424 (avg0.08326)	ValAccuracy 0.007 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1300/2341]	ValTime 0.843s (avg0.940s)	Speed 76.0 images/s	Data 0.586s (0.678s)	ValLoss 0.03575 (avg0.08289)	ValAccuracy 0.018 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1310/2341]	ValTime 0.886s (avg0.940s)	Speed 72.2 images/s	Data 0.619s (0.678s)	ValLoss 0.03535 (avg0.08253)	ValAccuracy 0.008 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1320/2341]	ValTime 0.889s (avg0.940s)	Speed 72.0 images/s	Data 0.617s (0.678s)	ValLoss 0.03406 (avg0.08217)	ValAccuracy 0.008 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1330/2341]	ValTime 0.847s (avg0.940s)	Speed 75.6 images/s	Data 0.591s (0.678s)	ValLoss 0.03341 (avg0.08181)	ValAccuracy 0.008 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1340/2341]	ValTime 0.805s (avg0.939s)	Speed 79.5 images/s	Data 0.544s (0.678s)	ValLoss 0.03671 (avg0.08145)	ValAccuracy 0.019 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1350/2341]	ValTime 0.786s (avg0.939s)	Speed 81.4 images/s	Data 0.527s (0.677s)	ValLoss 0.03277 (avg0.08110)	ValAccuracy 0.013 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1360/2341]	ValTime 0.894s (avg0.939s)	Speed 71.6 images/s	Data 0.636s (0.677s)	ValLoss 0.03507 (avg0.08076)	ValAccuracy 0.011 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1370/2341]	ValTime 0.837s (avg0.939s)	Speed 76.4 images/s	Data 0.581s (0.677s)	ValLoss 0.03196 (avg0.08041)	ValAccuracy 0.022 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1380/2341]	ValTime 0.866s (avg0.939s)	Speed 73.9 images/s	Data 0.608s (0.677s)	ValLoss 0.03364 (avg0.08007)	ValAccuracy 0.010 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1390/2341]	ValTime 0.870s (avg0.939s)	Speed 73.6 images/s	Data 0.608s (0.677s)	ValLoss 0.03230 (avg0.07974)	ValAccuracy 0.019 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1400/2341]	ValTime 0.867s (avg0.939s)	Speed 73.8 images/s	Data 0.612s (0.677s)	ValLoss 0.03177 (avg0.07941)	ValAccuracy 0.014 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1410/2341]	ValTime 0.857s (avg0.938s)	Speed 74.6 images/s	Data 0.600s (0.677s)	ValLoss 0.03336 (avg0.07908)	ValAccuracy 0.013 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1420/2341]	ValTime 0.860s (avg0.938s)	Speed 74.4 images/s	Data 0.606s (0.677s)	ValLoss 0.03167 (avg0.07875)	ValAccuracy 0.005 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1430/2341]	ValTime 0.841s (avg0.938s)	Speed 76.1 images/s	Data 0.574s (0.677s)	ValLoss 0.03089 (avg0.07842)	ValAccuracy 0.014 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1440/2341]	ValTime 0.876s (avg0.938s)	Speed 73.1 images/s	Data 0.613s (0.677s)	ValLoss 0.03275 (avg0.07810)	ValAccuracy 0.020 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1450/2341]	ValTime 0.906s (avg0.938s)	Speed 70.6 images/s	Data 0.640s (0.676s)	ValLoss 0.03122 (avg0.07778)	ValAccuracy 0.010 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1460/2341]	ValTime 0.817s (avg0.938s)	Speed 78.3 images/s	Data 0.560s (0.676s)	ValLoss 0.03153 (avg0.07747)	ValAccuracy 0.016 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1470/2341]	ValTime 0.856s (avg0.938s)	Speed 74.8 images/s	Data 0.598s (0.676s)	ValLoss 0.03003 (avg0.07716)	ValAccuracy 0.012 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1480/2341]	ValTime 0.863s (avg0.938s)	Speed 74.2 images/s	Data 0.600s (0.676s)	ValLoss 0.03162 (avg0.07685)	ValAccuracy 0.021 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1490/2341]	ValTime 0.831s (avg0.938s)	Speed 77.0 images/s	Data 0.567s (0.676s)	ValLoss 0.03112 (avg0.07654)	ValAccuracy 0.011 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1500/2341]	ValTime 0.870s (avg0.938s)	Speed 73.5 images/s	Data 0.612s (0.676s)	ValLoss 0.03160 (avg0.07623)	ValAccuracy 0.015 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1510/2341]	ValTime 0.849s (avg0.938s)	Speed 75.4 images/s	Data 0.592s (0.676s)	ValLoss 0.02982 (avg0.07593)	ValAccuracy 0.014 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1520/2341]	ValTime 0.814s (avg0.938s)	Speed 78.6 images/s	Data 0.554s (0.676s)	ValLoss 0.02929 (avg0.07563)	ValAccuracy 0.016 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1530/2341]	ValTime 0.917s (avg0.938s)	Speed 69.8 images/s	Data 0.656s (0.676s)	ValLoss 0.03113 (avg0.07534)	ValAccuracy 0.016 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1540/2341]	ValTime 0.835s (avg0.937s)	Speed 76.7 images/s	Data 0.581s (0.676s)	ValLoss 0.02921 (avg0.07504)	ValAccuracy 0.015 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1550/2341]	ValTime 0.828s (avg0.937s)	Speed 77.2 images/s	Data 0.574s (0.676s)	ValLoss 0.02929 (avg0.07475)	ValAccuracy 0.015 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1560/2341]	ValTime 0.915s (avg0.937s)	Speed 70.0 images/s	Data 0.649s (0.676s)	ValLoss 0.03087 (avg0.07446)	ValAccuracy 0.004 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1570/2341]	ValTime 0.883s (avg0.937s)	Speed 72.5 images/s	Data 0.616s (0.676s)	ValLoss 0.02724 (avg0.07417)	ValAccuracy 0.019 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1580/2341]	ValTime 0.844s (avg0.937s)	Speed 75.8 images/s	Data 0.583s (0.676s)	ValLoss 0.02770 (avg0.07389)	ValAccuracy 0.017 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1590/2341]	ValTime 0.812s (avg0.937s)	Speed 78.8 images/s	Data 0.557s (0.676s)	ValLoss 0.02825 (avg0.07360)	ValAccuracy 0.020 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1600/2341]	ValTime 0.838s (avg0.937s)	Speed 76.3 images/s	Data 0.583s (0.675s)	ValLoss 0.02807 (avg0.07332)	ValAccuracy 0.012 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1610/2341]	ValTime 0.876s (avg0.937s)	Speed 73.0 images/s	Data 0.620s (0.675s)	ValLoss 0.02827 (avg0.07305)	ValAccuracy 0.009 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1620/2341]	ValTime 0.846s (avg0.936s)	Speed 75.7 images/s	Data 0.590s (0.675s)	ValLoss 0.02700 (avg0.07277)	ValAccuracy 0.014 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1630/2341]	ValTime 0.848s (avg0.936s)	Speed 75.5 images/s	Data 0.587s (0.675s)	ValLoss 0.02878 (avg0.07250)	ValAccuracy 0.015 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1640/2341]	ValTime 0.854s (avg0.936s)	Speed 75.0 images/s	Data 0.594s (0.675s)	ValLoss 0.02905 (avg0.07223)	ValAccuracy 0.013 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1650/2341]	ValTime 0.849s (avg0.936s)	Speed 75.4 images/s	Data 0.592s (0.675s)	ValLoss 0.02588 (avg0.07197)	ValAccuracy 0.015 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1660/2341]	ValTime 0.853s (avg0.936s)	Speed 75.0 images/s	Data 0.591s (0.675s)	ValLoss 0.02879 (avg0.07170)	ValAccuracy 0.021 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1670/2341]	ValTime 0.848s (avg0.936s)	Speed 75.5 images/s	Data 0.594s (0.675s)	ValLoss 0.03004 (avg0.07144)	ValAccuracy 0.018 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1680/2341]	ValTime 0.861s (avg0.936s)	Speed 74.3 images/s	Data 0.609s (0.675s)	ValLoss 0.02714 (avg0.07118)	ValAccuracy 0.016 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1690/2341]	ValTime 0.909s (avg0.936s)	Speed 70.4 images/s	Data 0.644s (0.675s)	ValLoss 0.02493 (avg0.07092)	ValAccuracy 0.011 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1700/2341]	ValTime 0.843s (avg0.936s)	Speed 75.9 images/s	Data 0.573s (0.675s)	ValLoss 0.02839 (avg0.07067)	ValAccuracy 0.012 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1710/2341]	ValTime 0.844s (avg0.936s)	Speed 75.8 images/s	Data 0.577s (0.675s)	ValLoss 0.02595 (avg0.07041)	ValAccuracy 0.012 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1720/2341]	ValTime 0.885s (avg0.936s)	Speed 72.3 images/s	Data 0.628s (0.675s)	ValLoss 0.02391 (avg0.07016)	ValAccuracy 0.019 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1730/2341]	ValTime 0.863s (avg0.936s)	Speed 74.2 images/s	Data 0.600s (0.675s)	ValLoss 0.02567 (avg0.06991)	ValAccuracy 0.010 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1740/2341]	ValTime 0.896s (avg0.936s)	Speed 71.4 images/s	Data 0.633s (0.675s)	ValLoss 0.02613 (avg0.06966)	ValAccuracy 0.015 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1750/2341]	ValTime 0.831s (avg0.936s)	Speed 77.0 images/s	Data 0.573s (0.675s)	ValLoss 0.02944 (avg0.06941)	ValAccuracy 0.011 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1760/2341]	ValTime 0.877s (avg0.936s)	Speed 73.0 images/s	Data 0.613s (0.675s)	ValLoss 0.02537 (avg0.06917)	ValAccuracy 0.015 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1770/2341]	ValTime 0.928s (avg0.936s)	Speed 68.9 images/s	Data 0.649s (0.675s)	ValLoss 0.02671 (avg0.06893)	ValAccuracy 0.017 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1780/2341]	ValTime 0.858s (avg0.936s)	Speed 74.6 images/s	Data 0.602s (0.675s)	ValLoss 0.02617 (avg0.06869)	ValAccuracy 0.012 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1790/2341]	ValTime 0.876s (avg0.936s)	Speed 73.0 images/s	Data 0.624s (0.675s)	ValLoss 0.02501 (avg0.06845)	ValAccuracy 0.013 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1800/2341]	ValTime 0.829s (avg0.936s)	Speed 77.2 images/s	Data 0.573s (0.675s)	ValLoss 0.02577 (avg0.06822)	ValAccuracy 0.019 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1810/2341]	ValTime 0.816s (avg0.936s)	Speed 78.5 images/s	Data 0.563s (0.675s)	ValLoss 0.02618 (avg0.06798)	ValAccuracy 0.014 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1820/2341]	ValTime 0.849s (avg0.935s)	Speed 75.4 images/s	Data 0.586s (0.674s)	ValLoss 0.02499 (avg0.06775)	ValAccuracy 0.014 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1830/2341]	ValTime 0.836s (avg0.935s)	Speed 76.5 images/s	Data 0.579s (0.674s)	ValLoss 0.02421 (avg0.06751)	ValAccuracy 0.017 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1840/2341]	ValTime 0.859s (avg0.935s)	Speed 74.5 images/s	Data 0.597s (0.674s)	ValLoss 0.02633 (avg0.06728)	ValAccuracy 0.012 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1850/2341]	ValTime 0.880s (avg0.935s)	Speed 72.7 images/s	Data 0.626s (0.674s)	ValLoss 0.02580 (avg0.06706)	ValAccuracy 0.016 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1860/2341]	ValTime 0.854s (avg0.935s)	Speed 74.9 images/s	Data 0.597s (0.674s)	ValLoss 0.02523 (avg0.06684)	ValAccuracy 0.022 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1870/2341]	ValTime 0.822s (avg0.935s)	Speed 77.8 images/s	Data 0.568s (0.674s)	ValLoss 0.02381 (avg0.06661)	ValAccuracy 0.011 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1880/2341]	ValTime 0.845s (avg0.935s)	Speed 75.8 images/s	Data 0.585s (0.674s)	ValLoss 0.02210 (avg0.06639)	ValAccuracy 0.011 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1890/2341]	ValTime 0.819s (avg0.935s)	Speed 78.1 images/s	Data 0.562s (0.674s)	ValLoss 0.02472 (avg0.06617)	ValAccuracy 0.009 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1900/2341]	ValTime 0.850s (avg0.935s)	Speed 75.3 images/s	Data 0.595s (0.674s)	ValLoss 0.02757 (avg0.06595)	ValAccuracy 0.011 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1910/2341]	ValTime 0.855s (avg0.935s)	Speed 74.8 images/s	Data 0.598s (0.674s)	ValLoss 0.02184 (avg0.06573)	ValAccuracy 0.015 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1920/2341]	ValTime 0.856s (avg0.935s)	Speed 74.7 images/s	Data 0.597s (0.674s)	ValLoss 0.02326 (avg0.06551)	ValAccuracy 0.019 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1930/2341]	ValTime 0.808s (avg0.935s)	Speed 79.2 images/s	Data 0.552s (0.674s)	ValLoss 0.02469 (avg0.06530)	ValAccuracy 0.009 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1940/2341]	ValTime 0.865s (avg0.934s)	Speed 74.0 images/s	Data 0.608s (0.674s)	ValLoss 0.02401 (avg0.06508)	ValAccuracy 0.013 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1950/2341]	ValTime 0.833s (avg0.934s)	Speed 76.8 images/s	Data 0.573s (0.674s)	ValLoss 0.02505 (avg0.06487)	ValAccuracy 0.016 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1960/2341]	ValTime 0.850s (avg0.934s)	Speed 75.3 images/s	Data 0.587s (0.674s)	ValLoss 0.02426 (avg0.06466)	ValAccuracy 0.020 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1970/2341]	ValTime 0.864s (avg0.934s)	Speed 74.0 images/s	Data 0.606s (0.674s)	ValLoss 0.02299 (avg0.06445)	ValAccuracy 0.009 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1980/2341]	ValTime 0.835s (avg0.934s)	Speed 76.6 images/s	Data 0.578s (0.674s)	ValLoss 0.02410 (avg0.06425)	ValAccuracy 0.022 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][1990/2341]	ValTime 0.852s (avg0.934s)	Speed 75.1 images/s	Data 0.586s (0.674s)	ValLoss 0.02275 (avg0.06404)	ValAccuracy 0.014 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2000/2341]	ValTime 0.860s (avg0.934s)	Speed 74.4 images/s	Data 0.603s (0.673s)	ValLoss 0.02305 (avg0.06383)	ValAccuracy 0.011 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2010/2341]	ValTime 0.853s (avg0.934s)	Speed 75.0 images/s	Data 0.590s (0.673s)	ValLoss 0.02344 (avg0.06363)	ValAccuracy 0.025 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2020/2341]	ValTime 0.868s (avg0.934s)	Speed 73.7 images/s	Data 0.610s (0.673s)	ValLoss 0.02148 (avg0.06343)	ValAccuracy 0.014 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2030/2341]	ValTime 0.840s (avg0.934s)	Speed 76.2 images/s	Data 0.578s (0.673s)	ValLoss 0.02172 (avg0.06323)	ValAccuracy 0.009 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2040/2341]	ValTime 0.840s (avg0.934s)	Speed 76.2 images/s	Data 0.583s (0.673s)	ValLoss 0.02068 (avg0.06303)	ValAccuracy 0.004 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2050/2341]	ValTime 0.852s (avg0.934s)	Speed 75.1 images/s	Data 0.597s (0.673s)	ValLoss 0.02296 (avg0.06283)	ValAccuracy 0.013 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2060/2341]	ValTime 0.853s (avg0.934s)	Speed 75.0 images/s	Data 0.597s (0.673s)	ValLoss 0.02122 (avg0.06264)	ValAccuracy 0.013 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2070/2341]	ValTime 0.848s (avg0.934s)	Speed 75.4 images/s	Data 0.596s (0.673s)	ValLoss 0.02168 (avg0.06244)	ValAccuracy 0.010 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2080/2341]	ValTime 0.820s (avg0.934s)	Speed 78.1 images/s	Data 0.560s (0.673s)	ValLoss 0.02384 (avg0.06225)	ValAccuracy 0.024 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2090/2341]	ValTime 0.828s (avg0.934s)	Speed 77.3 images/s	Data 0.572s (0.673s)	ValLoss 0.02253 (avg0.06206)	ValAccuracy 0.018 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2100/2341]	ValTime 0.847s (avg0.934s)	Speed 75.5 images/s	Data 0.590s (0.673s)	ValLoss 0.02104 (avg0.06187)	ValAccuracy 0.017 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2110/2341]	ValTime 0.859s (avg0.933s)	Speed 74.5 images/s	Data 0.605s (0.673s)	ValLoss 0.02405 (avg0.06168)	ValAccuracy 0.016 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2120/2341]	ValTime 0.813s (avg0.933s)	Speed 78.7 images/s	Data 0.559s (0.673s)	ValLoss 0.02192 (avg0.06149)	ValAccuracy 0.013 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2130/2341]	ValTime 0.824s (avg0.933s)	Speed 77.7 images/s	Data 0.570s (0.673s)	ValLoss 0.02091 (avg0.06131)	ValAccuracy 0.020 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2140/2341]	ValTime 0.825s (avg0.933s)	Speed 77.6 images/s	Data 0.561s (0.673s)	ValLoss 0.02133 (avg0.06112)	ValAccuracy 0.019 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2150/2341]	ValTime 0.849s (avg0.933s)	Speed 75.4 images/s	Data 0.593s (0.673s)	ValLoss 0.02072 (avg0.06094)	ValAccuracy 0.014 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2160/2341]	ValTime 0.851s (avg0.933s)	Speed 75.2 images/s	Data 0.596s (0.673s)	ValLoss 0.02105 (avg0.06075)	ValAccuracy 0.007 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2170/2341]	ValTime 0.817s (avg0.933s)	Speed 78.4 images/s	Data 0.559s (0.672s)	ValLoss 0.02090 (avg0.06057)	ValAccuracy 0.007 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2180/2341]	ValTime 0.813s (avg0.933s)	Speed 78.7 images/s	Data 0.557s (0.672s)	ValLoss 0.02110 (avg0.06039)	ValAccuracy 0.017 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2190/2341]	ValTime 0.827s (avg0.933s)	Speed 77.4 images/s	Data 0.571s (0.672s)	ValLoss 0.02048 (avg0.06021)	ValAccuracy 0.017 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2200/2341]	ValTime 0.845s (avg0.933s)	Speed 75.7 images/s	Data 0.588s (0.672s)	ValLoss 0.02147 (avg0.06004)	ValAccuracy 0.008 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2210/2341]	ValTime 0.826s (avg0.933s)	Speed 77.5 images/s	Data 0.566s (0.672s)	ValLoss 0.02125 (avg0.05986)	ValAccuracy 0.025 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2220/2341]	ValTime 0.852s (avg0.933s)	Speed 75.1 images/s	Data 0.588s (0.672s)	ValLoss 0.02213 (avg0.05968)	ValAccuracy 0.010 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2230/2341]	ValTime 0.875s (avg0.933s)	Speed 73.1 images/s	Data 0.610s (0.672s)	ValLoss 0.02145 (avg0.05951)	ValAccuracy 0.015 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2240/2341]	ValTime 0.840s (avg0.933s)	Speed 76.2 images/s	Data 0.583s (0.672s)	ValLoss 0.01974 (avg0.05934)	ValAccuracy 0.012 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2250/2341]	ValTime 0.863s (avg0.932s)	Speed 74.2 images/s	Data 0.598s (0.672s)	ValLoss 0.02112 (avg0.05917)	ValAccuracy 0.012 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2260/2341]	ValTime 0.825s (avg0.933s)	Speed 77.6 images/s	Data 0.560s (0.672s)	ValLoss 0.02213 (avg0.05900)	ValAccuracy 0.024 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2270/2341]	ValTime 0.819s (avg0.932s)	Speed 78.2 images/s	Data 0.556s (0.672s)	ValLoss 0.02118 (avg0.05883)	ValAccuracy 0.014 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2280/2341]	ValTime 0.844s (avg0.932s)	Speed 75.9 images/s	Data 0.580s (0.672s)	ValLoss 0.01789 (avg0.05866)	ValAccuracy 0.021 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2290/2341]	ValTime 0.858s (avg0.932s)	Speed 74.6 images/s	Data 0.600s (0.672s)	ValLoss 0.02142 (avg0.05849)	ValAccuracy 0.004 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2300/2341]	ValTime 0.814s (avg0.932s)	Speed 78.6 images/s	Data 0.544s (0.672s)	ValLoss 0.01999 (avg0.05832)	ValAccuracy 0.004 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2310/2341]	ValTime 0.820s (avg0.932s)	Speed 78.0 images/s	Data 0.566s (0.672s)	ValLoss 0.02163 (avg0.05816)	ValAccuracy 0.018 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2320/2341]	ValTime 0.863s (avg0.932s)	Speed 74.1 images/s	Data 0.611s (0.672s)	ValLoss 0.01905 (avg0.05799)	ValAccuracy 0.025 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2330/2341]	ValTime 0.865s (avg0.932s)	Speed 74.0 images/s	Data 0.608s (0.672s)	ValLoss 0.02173 (avg0.05783)	ValAccuracy 0.008 (avg0.014)	lr:0.0010000
+INFO: Epoch: [0][2340/2341]	ValTime 0.708s (avg0.932s)	Speed 74.9 images/s	Data 0.471s (0.672s)	ValLoss 0.02237 (avg0.05767)	ValAccuracy 0.025 (avg0.014)	lr:0.0010000
+INFO: Test: [0/6352]	Time 0.621 (0.621)	Loss 0.0124 (0.0124)	Accuracy 0.020 (0.020)
+INFO: Test: [10/6352]	Time 0.612 (0.686)	Loss 0.0130 (0.0118)	Accuracy 0.014 (0.017)
+INFO: Test: [20/6352]	Time 0.627 (0.683)	Loss 0.0132 (0.0119)	Accuracy 0.009 (0.015)
+INFO: Test: [30/6352]	Time 0.625 (0.690)	Loss 0.0107 (0.0119)	Accuracy 0.025 (0.016)
+INFO: Test: [40/6352]	Time 0.695 (0.694)	Loss 0.0131 (0.0118)	Accuracy 0.012 (0.016)
+INFO: Test: [50/6352]	Time 0.659 (0.693)	Loss 0.0105 (0.0119)	Accuracy 0.013 (0.016)
+INFO: Test: [60/6352]	Time 0.606 (0.695)	Loss 0.0105 (0.0119)	Accuracy 0.006 (0.016)
+INFO: Test: [70/6352]	Time 0.612 (0.696)	Loss 0.0110 (0.0119)	Accuracy 0.014 (0.016)
+INFO: Test: [80/6352]	Time 0.612 (0.696)	Loss 0.0120 (0.0119)	Accuracy 0.019 (0.016)
+INFO: Test: [90/6352]	Time 0.547 (0.694)	Loss 0.0094 (0.0118)	Accuracy 0.022 (0.016)
+INFO: | Arch | AP | Ap .5 | AP .75 | AP (M) | AP (L) | AR | AR .5 | AR .75 | AR (M) | AR (L) |
+INFO: |---|---|---|---|---|---|---|---|---|---|---|
+INFO: | model_mobilenet_v2 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
+INFO: => saving checkpoint to E:/python_project/HKD_mobilenetv2/cfg/model_mobilenet_v2_1.0_17_192_256_128_gaussian_45_1.25_coco_2024-03-02-22-20\model
+INFO: AP: 3.370264016443511e-06
+INFO: save model in:E:/python_project/HKD_mobilenetv2/cfg/model_mobilenet_v2_1.0_17_192_256_128_gaussian_45_1.25_coco_2024-03-02-22-20\model\model_000_0.0000.pth
+INFO: save best_model_path in:E:/python_project/HKD_mobilenetv2/cfg/model_mobilenet_v2_1.0_17_192_256_128_gaussian_45_1.25_coco_2024-03-02-22-20\model\best_model_000_0.0000.pth
